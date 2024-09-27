@@ -1,0 +1,137 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 50px 8% 0 8%;
+}
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 50px;
+
+    color: rgba(101, 101, 101, 0.868);
+}
+
+/* item de la colonne de gauche */
+.itemCol{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px rgba(200, 200, 200, 0.868);
+}
+
+/* colonne de gauche */
+#col1{
+    flex: 1;
+}
+
+/* colonne de droite */
+#col2{
+    flex: 2;
+}
+
+/* Titre en haut à gauche */
+#titre{
+    font-size: small;
+}
+
+/* grenouille hexagone */
+#ppGrenouille{
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    width: 50px;
+    height: 50px;
+}
+
+/* items du milieu */
+.itemMidCol{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 250px;
+
+    border: solid 1px rgba(200, 200, 200, 0.868);
+}
+
+.itemMidCol2{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemMidCol3{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    font-size: x-small;
+}
+
+
+
+/* image de l'item du milieu */
+.itemMidImg{
+    width: 100%;
+    height: 180px;
+
+    object-fit: cover;
+}
+
+/* grenouille ronde */
+#ppGrenouille2{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+/* items du bas de la colonne de gauche */ 
+.itemBotCol{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 50px;
+
+    padding: 15px 0 15px 0;
+    border-bottom: solid 1px rgba(200, 200, 200, 0.868);
+}
+
+.itemBotCol2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: x-small;
+    margin-left: 15px;
+}
+
+.itemBotImg{
+    width: 50px;
+    height: 50px;
+
+    object-fit: cover;
+}
+
+#dernierItemBot{
+    border: none;
+}
+
+/* Section à propos */
+.aPropos{
+    font-size: small;
+    text-transform: none;
+}
+
+/* Bouton En savoir plus */
+.enSavoirPlus{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
+    padding: 100px;
+}

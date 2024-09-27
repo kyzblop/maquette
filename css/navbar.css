@@ -1,0 +1,54 @@
+/* Barre de navigation */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 100vh;
+    height: 40px;
+
+    font-size: small;
+
+    background-color: white;
+    
+}
+
+/* Differentes partie de la barre */
+.nav1{
+    padding: 10px;
+    justify-content: center;
+    border-right: solid 1px rgb(237, 237, 237);
+}
+
+.nav2{
+    margin: 10px;
+    flex: auto;
+}
+
+.lienNav{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: solid 1px rgb(237, 237, 237);
+    color:  rgba(101, 101, 101, 0.868);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#dernierNav{
+    border-right: none
+}
+
+.nav3{
+    padding: 10px;
+    border-left: solid 1px rgb(237, 237, 237);
+}
+
+.nav4{
+    padding: 10px;
+    border-left: solid 1px rgb(237, 237, 237);
+}
+
