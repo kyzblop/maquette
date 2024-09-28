@@ -8,8 +8,6 @@ nav{
     min-width: 100vh;
     height: 40px;
 
-    font-size: small;
-
     background-color: white;
     
 }
@@ -18,6 +16,7 @@ nav{
 .nav1{
     padding: 10px;
     justify-content: center;
+
     border-right: solid 1px rgb(237, 237, 237);
 }
 
@@ -29,17 +28,8 @@ nav{
 .lienNav{
     padding-right: 10px;
     padding-left: 10px;
+
     border-right: solid 1px rgb(237, 237, 237);
-    color:  rgba(101, 101, 101, 0.868);
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-#dernierNav{
-    border-right: none
 }
 
 .nav3{

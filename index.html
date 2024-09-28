@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maquette</title>
-    <link rel="stylesheet" href="/testAvance/css/style.css">
-    <link rel="stylesheet" href="/testAvance/css/navbar.css">
-    <link rel="stylesheet" href="/testAvance/css/colonne.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/smallColonne.css">
+    <link rel="stylesheet" href="css/bigColonne.css">
+    <link rel="stylesheet" href="css/typo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 </head>
 <body>
     <nav>
         <div class="nav1">
-            <a href="" style="font-weight: bold;">Future imperfect</a>
+            <a href="" class="gras">Future imperfect</a>
         </div>
         <div class="nav2">
             <a class="lienNav" href="">Truc</a>
             <a class="lienNav" href="">Machin</a>
             <a class="lienNav" href="">A propos</a>
             <a class="lienNav" href="">Prendre rdv</a>
-            <a id="dernierNav" class="lienNav" href="">Contact</a>
+            <a class="lienNav" style="border: none;" href="">Contact</a>
         </div>
         <div class="nav3">
             <span class="fontawesome icones">&#xf002;</span>
@@ -32,10 +34,12 @@
 
     <main>
         <div class="colonne" id="col1">
-            <div class="itemCol" id="titre">
-                <img src="/testAvance/images/grenouilles/grenouille1.jfif" alt="img grenouille" id="ppGrenouille">
-                <h2>Future</h2>
-                <h2>imperfect</h2>
+            <div class="itemCol">
+                <img src="images/grenouilles/grenouille1.jpg" alt="img grenouille" id="ppGrenouille">
+                <br><br>
+                <p class="superLarge gras">Future</p>
+                <br>
+                <p class="superLarge gras">imperfect</p>
                 <br>
                 <p>Another fine responsive site</p>
                 <br>
@@ -44,74 +48,86 @@
             </div>
             <div class="itemCol">
                 <div class="itemMidCol">
-                    <img class="itemMidImg" src="/testAvance/images/paysages/etang.jfif" alt="etang">
+                    <img class="itemMidImg" src="images/paysages/etang.jpg" alt="etang">
                     <div class="itemMidCol2">
-                        <div class="itemMidCol3">
-                            <p class="miniTitre">Truc machin bidulle</p>
+                        <div class="itemMidCol3 superSmall">
+                            <p class="gras">Elle n'est toujours pas revenue</p>
                             <br>
                             <p>27 septembre 2024</p>
                         </div>
-                        <img id="ppGrenouille2" src="/testAvance/images/grenouilles/grenouille2.png" alt="ppGrenouille2">
+                        <img id="ppGrenouille2" src="images/grenouilles/grenouille2.png" alt="ppGrenouille2">
                     </div>
                 </div>
-                <br>
+                
                 <div class="itemMidCol">
-                    <img class="itemMidImg" src="/testAvance/images/paysages/nenuphar.jfif" alt="nenuphar">
+                    <img class="itemMidImg" src="images/paysages/nenuphar.jpg" alt="nenuphar">
                     <div class="itemMidCol2">
-                        <div class="itemMidCol3">
-                            <p class="miniTitre">Truc machin bidulle</p>
+                        <div class="itemMidCol3 superSmall">
+                            <p class="gras">Mon date parfait</p>
                             <br>
-                            <p>27 septembre 2024</p>
+                            <p>8 aout 2022</p>
                         </div>
-                        <img id="ppGrenouille2" src="/testAvance/images/grenouilles/grenouille2.png" alt="ppGrenouille2">
+                        <img id="ppGrenouille2" src="images/grenouilles/grenouille2.png" alt="ppGrenouille2">
                     </div>
                 </div>
-                <br>
+                
                 <div class="itemMidCol">
-                    <img class="itemMidImg" src="/testAvance/images/paysages/jardin.jfif" alt="jardin">
+                    <img class="itemMidImg" src="images/paysages/jardin.jpg" alt="jardin">
                     <div class="itemMidCol2">
-                        <div class="itemMidCol3">
-                            <p class="miniTitre">Truc machin bidulle</p>
+                        <div class="itemMidCol3 superSmall">
+                            <p class="gras">Petite visite chez les grands pieds</p>
                             <br>
-                            <p>27 septembre 2024</p>
+                            <p>15 juillet 2021</p>
                         </div>
-                        <img id="ppGrenouille2" src="/testAvance/images/grenouilles/grenouille2.png" alt="ppGrenouille2">
+                        <img id="ppGrenouille2" src="images/grenouilles/grenouille2.png" alt="ppGrenouille2">
                     </div>
                 </div>
-                <br>
+
+                <div class="itemMidCol">
+                    <img class="itemMidImg" src="images/paysages/vegas.jpg" alt="Las Vegas">
+                    <div class="itemMidCol2">
+                        <div class="itemMidCol3 superSmall">
+                            <p class="gras">From barbotage to empochage</p>
+                            <br>
+                            <p>25 mars 2015</p>
+                        </div>
+                        <img id="ppGrenouille2" src="images/grenouilles/grenouille2.png" alt="ppGrenouille2">
+                    </div>
+                </div>
+                
             </div>
             <div class="itemCol">
                 <div class="itemBotCol">
-                    <img class="itemBotImg" src="/testAvance/images/animaux/oiseau.jfif" alt="oiseau">
-                    <div class="itemBotCol2">
-                        <p class="miniTitre">Salut nulos, comment tu vas ?</p>
+                    <img class="itemBotImg" src="images/animaux/oiseau.jpg" alt="oiseau">
+                    <div class="itemBotCol2 superSmall">
+                        <p class="gras">Salut nulos, comment tu vas ?</p>
                         <br>
-                        <p>2 aout 2022</p>
+                        <p>5 aout 2022</p>
                     </div>
                 </div>
                 
                 <div class="itemBotCol">
-                    <img class="itemBotImg" src="/testAvance/images/animaux/scarabe.jfif" alt="scarabe">
-                    <div class="itemBotCol2">
-                        <p class="miniTitre">Bien mon gars, ça fait quoi ?</p>
+                    <img class="itemBotImg" src="images/animaux/scarabe.jpg" alt="scarabe">
+                    <div class="itemBotCol2 superSmall">
+                        <p class="gras">Bien mon gars, ça fait quoi ?</p>
+                        <br>
+                        <p>5 aout 2022</p>
+                    </div>
+                </div>
+                
+                <div class="itemBotCol">
+                    <img class="itemBotImg" src="images/animaux/poisson.jpg" alt="poisson">
+                    <div class="itemBotCol2 superSmall">
+                        <p class="gras">Ici ça bulle !</p>
                         <br>
                         <p>6 aout 2022</p>
                     </div>
                 </div>
                 
-                <div class="itemBotCol">
-                    <img class="itemBotImg" src="/testAvance/images/animaux/poisson.jfif" alt="poisson">
-                    <div class="itemBotCol2">
-                        <p class="miniTitre">Ici ça bulle !</p>
-                        <br>
-                        <p>7 aout 2022</p>
-                    </div>
-                </div>
-                
                 <div id="dernierItemBot" class="itemBotCol">
-                    <img class="itemBotImg" src="/testAvance/images/animaux/dino.jfif" alt="dino">
-                    <div class="itemBotCol2">
-                        <p class="miniTitre">Je peux venir ?</p>
+                    <img class="itemBotImg" src="images/animaux/dino.jpg" alt="dino">
+                    <div class="itemBotCol2 superSmall">
+                        <p class="gras">Je peux venir ?</p>
                         <br>
                         <p>18 septembre 2022</p>
                     </div>
@@ -119,11 +135,11 @@
             </div>
             <div class="itemCol">
                 <div class="aPropos">
-                    <p class="miniTitre">
+                    <p class="gras">
                         A PROPOS
                     </p>
                     <br><br>
-                    <p>
+                    <p class="paragraphe">
                         Je suis une petite grenouille qui cherche des amis avec qui boire des coups au bar de l'étang. Viens nous rejoindre si t'es pas trop gros. On va faire une grosse soirée samedi, il y aura même Sasha et sa Grenousse.
                     </p>
                     <br><br>
@@ -134,7 +150,7 @@
                 <br>
             </div>
             
-            <footer>
+            <footer class="superSmall">
                 <span class="fontawesome icones">&#xf099;</span> <!-- icone Twitter-->
                 <span class="fontawesome icones">&#xf39e;</span> <!-- icone Facebook-->
                 <span class="fontawesome icones">&#xf16d;</span> <!-- icone Instagram-->
@@ -143,15 +159,175 @@
 
                 <br><br><br>
                 <p>
-                    © Untitled design HTML5 up images unsplash
+                    © Untitled design HTML5 up images : unsplash
                 </p>
             </footer>
 
         </div>
 
         <div class="colonne" id="col2">
-            div2
+            <div class="itemBigCol">
+                <div class="itemBigColEntete">
+                    <div class="itemBigColEntete1">
+                        <p class="superLarge gras">Il était une fois</p>
+                        <br>
+                        <p class="superSmall">Dans le jardin de la petite maison dans la prairie, il y avait un étang</p>
+                    </div>
+                    <div class="itemBigColEntete2">
+                        <p class="gras">25 octobre 2023</p>
+                        <br>
+                        <div class="itemBigColEntete3">
+                            <p class="superSmall" style="padding-right: 15px;">Mr. Grenouille</p>
+                            
+                            <img id="ppGrenouille2" src="images/grenouilles/grenouille2.png" alt="ppGrenouille2">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemBigColCorps">
+                    <img class="imgBigCol" src="images/paysages/etangMaison.jpg" alt="etang maison">
+                      
+                    <p class="paragraphe">
+                        Mr Grenouille rencontra une petite fille avec laquelle il joue toute la journée. Au coucher du soleil, elle lui promis de revenir le lendemain au chant du coq.
+                        La grenouille était si exitée par cette nouvelle rencontre qu'elle ne parvint pas à fermer l'oeil.
+                        
+                    </p>
+                    
+                    <div class="itemBigColBas">
+                        <button>
+                            Continuer à lire
+                        </button>
+
+                       
+                        <div class="itemBigColBas2 superSmall">
+                            <p class="itemBigColBas3" style="border-left: none;">General</p>
+                            <div class="itemBigColBas3">
+                                <span class="fontawesome icones">&#xf004;</span> <!-- icone Like -->
+                                28
+                            </div>
+                            <div class="itemBigColBas3">
+                                <span class="fontawesome icones">&#xf075;</span> <!-- icone Commentaire -->
+                                125
+                            </div>
+                        </div>   
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="itemBigCol">
+                <div class="itemBigColEntete">
+                    <div class="itemBigColEntete1">
+                        <p class="superLarge gras">Il faut se coucher tôt</p>
+                        <br>
+                        <p class="superSmall">Si on ne veut pas passer notre nuit le matin</p>
+                    </div>
+                    <div class="itemBigColEntete2">
+                        <p class="gras">26 octobre 2023</p>
+                        <br>
+                        <div class="itemBigColEntete3">
+                            <p class="superSmall" style="padding-right: 15px;">Mr. Grenouille</p>
+                            
+                            <img id="ppGrenouille2" src="images/grenouilles/grenouille2.png" alt="ppGrenouille2">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemBigColCorps">
+                    <img class="imgBigCol" src="images/paysages/nuit.jpg" alt="nuit">
+                      
+                    <p class="paragraphe">
+                        
+                        Mr Grenouille finit pas s'endormir lorsque la lune était déjà à la fin de sa chute. Il dormis si bien qu'il n'entendit pas le chant lointain du coq.
+                        Lorsqu'il ouvrit les yeux, le soleil brillait au dessus de sa tête, il se précipita pour rejoindre le point de rendez-vous mais ne vit pas la fillette.
+                        
+                    </p>
+                    
+                    <div class="itemBigColBas">
+                        <button>
+                            Continuer à lire
+                        </button>
+
+                       
+                        <div class="itemBigColBas2 superSmall">
+                            <p class="itemBigColBas3" style="border-left: none;">General</p>
+                            <div class="itemBigColBas3">
+                                <span class="fontawesome icones">&#xf004;</span> <!-- icone Like -->
+                                36
+                            </div>
+                            <div class="itemBigColBas3">
+                                <span class="fontawesome icones">&#xf075;</span> <!-- icone Commentaire -->
+                                255
+                            </div>
+                        </div>   
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="itemBigCol">
+                <div class="itemBigColEntete">
+                    <div class="itemBigColEntete1">
+                        <p class="superLarge gras">La morale de cette histoire</p>
+                        <br>
+                        <p class="superSmall">Ne faites pas confiance au coq chantant, achetez un bon reveil </p>
+                    </div>
+                    <div class="itemBigColEntete2">
+                        <p class="gras">16 septembre 2024</p>
+                        <br>
+                        <div class="itemBigColEntete3">
+                            <p class="superSmall" style="padding-right: 15px;">Mr. Grenouille</p>
+                            
+                            <img id="ppGrenouille2" src="images/grenouilles/grenouille2.png" alt="ppGrenouille2">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemBigColCorps">
+                    <img class="imgBigCol" src="images/paysages/grenouilleMatin.jpg" alt="Grenouille au matin">
+                    
+                      
+                    <p class="paragraphe">
+                        
+                        Depuis ce jour Mr Grenouille ne se sépare plus de son réveil portatif qu'il vola à l'horloger du village
+                         et se lève tous les jours aux aurores pour se rendre à cet étang dans l'espoir de revoir son amie.
+                        
+                    </p>
+                    
+                    <div class="itemBigColBas">
+                        <button>
+                            Continuer à lire
+                        </button>
+
+                       
+                        <div class="itemBigColBas2 superSmall">
+                            <p class="itemBigColBas3" style="border-left: none;">General</p>
+                            <div class="itemBigColBas3">
+                                <span class="fontawesome icones">&#xf099;</span> <!-- icone Twitter-->
+                                28
+                            </div>
+                            <div class="itemBigColBas3">
+                                <span class="fontawesome icones">&#xf099;</span> <!-- icone Twitter-->
+                                125
+                            </div>
+                        </div>   
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="basPage">
+                <button style="margin-right: 15px; color: rgba(185, 185, 185, 0.868);;">
+                    Page précedente
+                </button>
+                
+                <button>
+                    Page suivante
+                </button>
+            </div>
+            
+
         </div>
+
+        
 
     </main>
 

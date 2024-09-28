@@ -1,0 +1,38 @@
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+    font-size: small;
+    color: rgba(101, 101, 101, 0.868);
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(101, 101, 101, 0.868);
+}
+
+/* Texte en gras */
+.gras{
+    font-weight: bold;
+    color: rgb(49, 48, 48);
+}
+
+.superSmall{
+    font-size: x-small;
+}
+
+.superLarge{
+    font-size: x-large;
+}
+
+.paragraphe{
+    text-transform: none;
+    text-align: justify;
+
+    line-height: 25px;
+}
