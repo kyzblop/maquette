@@ -14,7 +14,7 @@ nav{
 
 /* Differentes partie de la barre */
 .nav1{
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     justify-content: center;
 
     border-right: solid 1px rgb(237, 237, 237);
