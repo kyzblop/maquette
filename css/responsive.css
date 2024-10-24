@@ -1,0 +1,30 @@
+#profil{
+    grid-area: profil;
+}
+
+#col1{
+    grid-area: col1;
+}
+
+#col2{
+    grid-area: col2;
+}
+
+
+
+@media only screen and (max-width : 700px)  {
+    main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-areas:
+            "profil"
+            "col2"
+            "col1";
+    }
+
+    .nav2{
+        visibility: hidden;
+    }
+
+}
+    

@@ -1,6 +1,16 @@
 body{
     background-color: rgb(237, 237, 237);
     margin: 0;
+
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+        "profil col2 col2"
+        "col1 col2 col2";
+
+    margin: 50px 8% 0 8%;
 }
 
 /* grenouille ronde */

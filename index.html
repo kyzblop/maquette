@@ -10,42 +10,57 @@
     <link rel="stylesheet" href="css/bigColonne.css">
     <link rel="stylesheet" href="css/typo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/script.js" defer></script>
 
 </head>
 <body>
     <nav>
-        <div class="nav1">
-            <a href="" class="gras">Roger Grenouille</a>
+        <div class="navDefault">
+            <div class="nav1">
+                <a href="" class="gras">Roger Grenouille</a>
+            </div>
+            <div class="nav2">
+                <a class="lienNav" href="">Histoire</a>
+                <a class="lienNav" href="">Topics</a>
+                <a class="lienNav" href="">Amis</a>
+                <a class="lienNav" href="">A propos</a>
+                <a class="lienNav" style="border: none;" href="">Contact</a>
+            </div>
+            
+            <div class="nav3">
+                <span class="fontawesome icones">&#xf002;</span>
+            </div>
+            <div class="nav3" id="btnMenu">
+                <span class="fontawesome icones" >&#xf039;</span>
+            </div>  
         </div>
-        <div class="nav2">
+        <div id="navSecondaire">
             <a class="lienNav" href="">Histoire</a>
             <a class="lienNav" href="">Topics</a>
             <a class="lienNav" href="">Amis</a>
             <a class="lienNav" href="">A propos</a>
             <a class="lienNav" style="border: none;" href="">Contact</a>
         </div>
-        <div class="nav3">
-            <span class="fontawesome icones">&#xf002;</span>
-        </div>
-        <div class="nav4">
-            <span class="fontawesome icones">&#xf039;</span>
-        </div>
+              
     </nav>
+    
 
     <main>
-        <div class="colonne" id="col1">
-            <div class="itemCol">
-                <img src="images/grenouilles/grenouille1.jpg" alt="img grenouille" id="ppGrenouille">
-                <br><br>
-                <p class="superLarge gras">Roger</p>
-                <br>
-                <p class="superLarge gras">Grenouille</p>
-                <br>
-                <p>Blog officiel de R. Grenouille</p>
-                <br>
-                <p>Toujours dans l'étang</p>
-                <br>
-            </div>
+        <div class="itemCol" id="profil">
+            <img src="images/grenouilles/grenouille1.jpg" alt="img grenouille" id="ppGrenouille">
+            <br><br>
+            <p class="superLarge gras">Roger</p>
+            <br>
+            <p class="superLarge gras">Grenouille</p>
+            <br>
+            <p>Blog officiel de R. Grenouille</p>
+            <br>
+            <p>Toujours dans l'étang</p>
+            <br>
+        </div>
+
+        <div id="col1">
             <div class="itemCol">
                 <div class="itemMidCol">
                     <img class="itemMidImg" src="images/paysages/etang.jpg" alt="etang">
@@ -96,7 +111,7 @@
                 </div>
                 
             </div>
-            <div class="itemCol">
+            <div class="itemCol" id="messages">
                 <div class="itemBotCol">
                     <img class="itemBotImg" src="images/animaux/oiseau.jpg" alt="oiseau">
                     <div class="itemBotCol2 superSmall">
@@ -143,7 +158,7 @@
                 </div>
 
             </div>
-            <div class="itemCol">
+            <div class="itemCol" id="aPropos">
                 <div class="aPropos">
                     <p class="gras">
                         A PROPOS
@@ -159,8 +174,9 @@
                 </button>
                 <br>
             </div>
+        
             
-            <footer class="superSmall">
+            <footer class="superSmall" id="footer">
                 <span class="fontawesome icones">&#xf099;</span> <!-- icone Twitter-->
                 <span class="fontawesome icones">&#xf39e;</span> <!-- icone Facebook-->
                 <span class="fontawesome icones">&#xf16d;</span> <!-- icone Instagram-->
@@ -172,8 +188,9 @@
                     © Produit exclusivement par R. Grenouille
                 </p>
             </footer>
-
         </div>
+
+        
 
         <div class="colonne" id="col2">
             <div class="itemBigCol">

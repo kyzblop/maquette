@@ -1,21 +1,44 @@
 /* Barre de navigation */
 nav{
     display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+.navDefault{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    min-width: 100vh;
     height: 40px;
 
+    border-bottom: solid 1px rgb(237, 237, 237);
     background-color: white;
-    
+}
+
+#navSecondaire{
+    display: none;
+    flex-direction: column;
+}
+
+#navSecondaire a{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    height: 30px;
+    border-bottom: solid 1px rgb(237, 237, 237);
 }
 
 /* Differentes partie de la barre */
 .nav1{
     padding: 10px 20px 10px 20px;
     justify-content: center;
+
+    min-width: 150px;
 
     border-right: solid 1px rgb(237, 237, 237);
 }
@@ -37,8 +60,4 @@ nav{
     border-left: solid 1px rgb(237, 237, 237);
 }
 
-.nav4{
-    padding: 10px;
-    border-left: solid 1px rgb(237, 237, 237);
-}
 

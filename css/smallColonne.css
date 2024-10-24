@@ -1,14 +1,10 @@
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    margin: 50px 8% 0 8%;
-}
-
 .colonne{
     display: flex;
     flex-direction: column;
+}
+
+#profil{
+    margin-right: 50px;
 }
 
 /* item de la colonne de gauche */
