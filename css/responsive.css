@@ -59,6 +59,9 @@
         padding: 0 5px 0 5px;
     }
 
+    .nav1{
+        border-right: none;
+    }
 
 }
     
