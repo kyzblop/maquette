@@ -26,5 +26,39 @@
         visibility: hidden;
     }
 
+    #col2{
+        width: 100%;
+    }
+
+    #col1{
+        width: 100%;
+    }
+
+    #profil{
+        width: 100%;
+    }
+
+    main{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .itemBigColEntete1{
+        padding: 5%
+    }
+
+    .itemBigColEntete2{
+        padding: 5%
+    }
+
+    .itemBigColCorps{
+        padding: 5%;
+    }
+
+    .itemBigColBas3{
+        padding: 0 5px 0 5px;
+    }
+
+
 }
     
